@@ -13,6 +13,7 @@ public class DriverSetup extends Keywords{
 		// TODO Auto-generated constructor stub
 	}
 	public WebDriver browser_setup(String browser, Platform platfrom,String IP){
+		System.out.println("viswanadh");
 		
 		DesiredCapabilities capability=null;
 		
