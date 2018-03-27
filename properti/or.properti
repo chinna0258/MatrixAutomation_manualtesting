@@ -1,0 +1,6 @@
+URL=https://matrixabsenceuat.com
+Login_matrixuat_username_id=email
+Login_matrixuat_continue_xpath=html/body/matrix-app-root/matrix-login-panel/div/div[2]/form/button
+Login_matrixuat_password_id=password
+Login_matrixuat_CheckBox_xpath=html/body/matrix-app-root/matrix-login-panel/div/div[2]/form/div[2]/div/div[2]/div[1]/div/ins
+Login_matrixuat_Loginbutton_name=usernamePasswordLoginForm

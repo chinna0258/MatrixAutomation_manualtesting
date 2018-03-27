@@ -1,0 +1,19 @@
+<suite name="Login" verbose="1" annotations="JDK">
+<test name="Login_Scenatios" preserver-order="tru">
+<parameter name="broweser" value="firefox"/>
+<parameter name="platfrom" value="WINDOWS"></parameter>
+<parameter name="IP" value="http://localhost:5555/wd/hub"></parameter>
+<parameter name="applicationtype" value="UAT"></parameter>
+<parameter name="email_subject" value="Matrix eServices UAT(MatrixUser)- Automated Status Check - FAILED"></parameter>
+
+<classes>
+<class name=" com.matrix.sanity.Testlogin">
+<method>
+<include name="loginvaliddata">
+</include>
+</method>
+</class>
+
+</classes>
+</test>
+</suite>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="160" started-at="2018-03-23T13:11:51Z" finished-at="2018-03-23T13:11:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="160" started-at="2018-03-23T13:11:51Z" finished-at="2018-03-23T13:11:51Z">
+      <class name="com.matrix.sanity.Testlogin">
+        <test-method status="SKIP" signature="loginvaliddata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.matrix.sanity.Testlogin@24a67]" name="loginvaliddata" duration-ms="0" started-at="2018-03-23T18:41:51Z" description="Login into eServices with valid credential" data-provider="Login_Valid_Credential" finished-at="2018-03-23T18:41:51Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.matrix.sanity.Testlogin.loginvaliddata(java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : Login_Valid_Credential]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.matrix.sanity.Testlogin.loginvaliddata(java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : Login_Valid_Credential
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:263)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:419)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginvaliddata -->
+      </class> <!-- com.matrix.sanity.Testlogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
